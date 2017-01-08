@@ -2,7 +2,7 @@ var exec = require('cordova/exec');
 var myMathFunc = function(){};  
 
 myMathFunc.prototype.plus = function(arg0, success, error) {
-    exec(success, error, "MyMath", "Plus", arg0);
+    exec(success, error, "MyMath", "plus", arg0);
 };
 
 myMathFunc.prototype.minus = function(arg0, success, error) {
